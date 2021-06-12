@@ -140,7 +140,7 @@
         android:id="@+id/imageView5"
         android:layout_width="39dp"
         android:layout_height="37dp"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/roundback"
         app:layout_constraintStart_toEndOf="@+id/constraintLayout"
@@ -148,12 +148,24 @@
         app:srcCompat="@drawable/ic_filter_list" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="263dp"
-        android:layout_height="34dp"
+        android:id="@+id/productRecycler"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView5"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/productRecycler"
+        android:layout_width="324dp"
+        android:layout_height="592dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/productRecycler" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
