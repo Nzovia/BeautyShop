@@ -159,10 +159,10 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/productRecycler"
+        android:id="@+id/productListRecycler"
         android:layout_width="324dp"
         android:layout_height="592dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/imageView5"
